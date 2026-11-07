@@ -1,0 +1,1222 @@
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>QAZAQ TILI | Қазақ киносы және емле</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<main class="main">
+
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-icon">🎬</div>
+    <div>
+      <b>QAZAQ TILI</b>
+      <small>Қазақ тілі • 1-курс • 80 минут</small>
+    </div>
+  </div>
+
+  <div class="top-actions">
+    <span class="clock">
+      ⏱ <b id="lessonClock">00:00</b>
+    </span>
+    <span class="clock">
+      ⌛ <b id="sectionClock">03:00</b>
+    </span>
+    <button class="btn secondary"
+            id="fullscreenBtn">
+      ⛶ Толық экран
+    </button>
+  </div>
+</header>
+
+<!-- 0. БАСТЫ БЕТ -->
+<section class="screen active" id="page-0">
+  <div class="hero">
+    <div class="eyebrow">
+      ҚАЗАҚ ТІЛІ • МӘДЕНИЕТ ЖӘНЕ СӨЗ МӘДЕНИЕТІ
+    </div>
+
+    <h1>
+      Қазақ киносы —
+      <span>қазақ тарихы</span>
+    </h1>
+
+    <p>
+      Дефис арқылы жазылатын сөздер.
+      Тасымал. Кино өнері мен
+      сауатты жазудың байланысы.
+    </p>
+
+    <div class="hero-stats">
+      <div><b>80</b><small>минут</small></div>
+      <div><b>24</b><small>оқушыға дейін</small></div>
+      <div><b>3</b><small>команда</small></div>
+      <div><b>3</b><small>ойын</small></div>
+    </div>
+
+    <button class="btn primary large"
+            onclick="goTo(1)">
+      Сабақты бастау →
+    </button>
+  </div>
+
+  <h2>Сабақтың мақсаттары</h2>
+
+  <div class="cards three">
+    <article class="card">
+      <div class="emoji">🎞️</div>
+      <h3>Қазақ киносы</h3>
+      <p>
+        Кино тарихы мен ұлттық
+        құндылықтардың экрандағы
+        көрінісін талдау.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="emoji">✍️</div>
+      <h3>Дефис</h3>
+      <p>
+        Қос сөздер мен
+        басқа дефис арқылы
+        жазылатын тұлғаларды тану.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📖</div>
+      <h3>Тасымал</h3>
+      <p>
+        Сөздерді буын жігіне
+        қарай сауатты тасымалдау.
+      </p>
+    </article>
+  </div>
+
+  <div class="callout">
+    <b>Негізгі сұрақ:</b>
+    Кино тарихты қалай танытады
+    және кино туралы мәтінді
+    орфографиялық нормаға сай
+    қалай жазуға болады?
+  </div>
+</section>
+
+<!-- 1. ҚАЗАҚ КИНОСЫ -->
+<section class="screen" id="page-1">
+  <div class="eyebrow">01 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>🎥 Қазақ киносы — ұлттың рухани шежіресі</h1>
+
+  <p class="lead">
+    Кино — оқиғаны бейне,
+    дыбыс, актерлік ойын және
+    көркемдік шешім арқылы
+    жеткізетін өнер түрі.
+  </p>
+
+  <div class="photos">
+    <figure class="photo">
+      <img
+        loading="lazy"
+        src="https://tengrinews.kz/userdata/images/u277/d9ba3acf0fff87ddd0c016773696c42a.jpg"
+        alt="Режиссер Шәкен Айманов түсірілім алаңында">
+      <figcaption>
+        Шәкен Айманов түсірілім алаңында.
+        Фото: Tengri Life.
+      </figcaption>
+    </figure>
+
+    <figure class="photo">
+      <img
+        loading="lazy"
+        src="https://img.inform.kz/kazinform-photobank/media/2026-04-14/d8737d95-cb0c-4861-abdf-16f072e4ba50.webp"
+        alt="Қыз Жібек фильмінен көрініс">
+      <figcaption>
+        «Қыз Жібек» фильмінен көрініс.
+        Фото: Kazinform.
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="cards">
+    <article class="card">
+      <h3>Киноның танымдық қызметі</h3>
+      <p>
+        Көрерменге тарихи кезең,
+        халық тұрмысы, салт-дәстүр,
+        тіл және мәдениет туралы
+        түсінік береді.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Киноның тәрбиелік қызметі</h3>
+      <p>
+        Адамгершілік, жауапкершілік,
+        достық, ерлік және
+        туған жерге құрмет
+        сияқты құндылықтарды
+        көркем түрде ұсынады.
+      </p>
+    </article>
+  </div>
+
+  <div class="callout">
+    <b>Есте сақта:</b>
+    тарихи фильм — тарихи
+    оқиғаның көркем бейнесі.
+    Ол деректерге сүйенуі мүмкін,
+    бірақ сценарийде көркемдік
+    қиял да болады.
+  </div>
+</section>
+
+<!-- 2. КИНО ТАРИХЫ -->
+<section class="screen" id="page-2">
+  <div class="eyebrow">02 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>📽️ Қазақ киносының даму тарихы</h1>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="year">1925</span>
+      <div>
+        <h3>Деректі киноның алғашқы қадамдары</h3>
+        <p>
+          Қазақ АКСР-інің бес жылдығына
+          арналған кинохроника түсірілді.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1934</span>
+      <div>
+        <h3>Алматы кинохроника студиясы</h3>
+        <p>
+          Қазақстандағы кино өндірісінің
+          маңызды ұйымдастырушылық
+          негізі қаланды.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1938</span>
+      <div>
+        <h3>«Амангелді»</h3>
+        <p>
+          Ұлттық көркем кино тарихында
+          ерекше орын алған фильм.
+          Амангелді Имановтың
+          күрес жолын баяндайды.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1963</span>
+      <div>
+        <h3>«Менің атым Қожа»</h3>
+        <p>
+          Абдолла Қарсақбаевтың
+          Бердібек Соқпақбаев
+          шығармасына негізделген фильмі.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">1970</span>
+      <div>
+        <h3>«Қыз Жібек»</h3>
+        <p>
+          Сұлтан Қожықов режиссерлік
+          еткен, халық эпосына
+          негізделген көркем туынды.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <b>Талқыла:</b>
+    Кино бізге өткен дәуірдің
+    қандай ерекшеліктерін
+    көрсете алады?
+  </div>
+</section>
+
+<!-- 3. ФИЛЬМДЕР ЖӘНЕ ТАРИХ -->
+<section class="screen" id="page-3">
+  <div class="eyebrow">03 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>🏛️ Тарихи киноны қалай талдаймыз?</h1>
+
+  <div class="cards three">
+    <article class="card">
+      <div class="emoji">⚔️</div>
+      <h3>«Амангелді»</h3>
+      <p>
+        Азаттық жолындағы күрес,
+        тарихи тұлға бейнесі,
+        халықтың қоғамдық өмірі.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="emoji">🌸</div>
+      <h3>«Қыз Жібек»</h3>
+      <p>
+        Эпостық оқиға,
+        дәстүр, киім үлгісі,
+        музыка және мәдени орта.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="emoji">📚</div>
+      <h3>«Менің атым Қожа»</h3>
+      <p>
+        Бала мінезі,
+        мектеп тәрбиесі,
+        ауыл өмірі және
+        адамдық жауапкершілік.
+      </p>
+    </article>
+  </div>
+
+  <div class="photos">
+    <figure class="photo">
+      <img
+        loading="lazy"
+        src="https://adebiportal.kz/storage/tmp/resize/preview/1200_0_5594fead30d45c37a70a4d1acec415e4.jpg"
+        alt="Қыз Жібек киносындағы ұлттық киімдер">
+      <figcaption>
+        «Қыз Жібек» фильмінің
+        басты кейіпкерлері.
+        Фото: Әдебиет порталы.
+      </figcaption>
+    </figure>
+
+    <figure class="photo">
+      <img
+        loading="lazy"
+        src="https://cdn.nur.kz/images/1200x675/d35799d370518f2f.jpeg?version=1"
+        alt="Шәкен Айманов">
+      <figcaption>
+        Қазақ киносының көрнекті
+        қайраткері Шәкен Айманов.
+        Фото: NUR.KZ.
+      </figcaption>
+    </figure>
+  </div>
+
+  <h2>Фильмді талдаудың төрт сұрағы</h2>
+
+  <div class="steps">
+    <div class="step">
+      <b>1</b>
+      <span>Фильм қандай кезеңді суреттейді?</span>
+    </div>
+    <div class="step">
+      <b>2</b>
+      <span>Негізгі тарихи немесе әлеуметтік мәселе қандай?</span>
+    </div>
+    <div class="step">
+      <b>3</b>
+      <span>Қай көрініс нақты дерекке, қайсысы көркем қиялға жақын?</span>
+    </div>
+    <div class="step">
+      <b>4</b>
+      <span>Фильмнің тәрбиелік ойы қандай?</span>
+    </div>
+  </div>
+</section>
+
+<!-- 4. ДЕФИС -->
+<section class="screen" id="page-4">
+  <div class="eyebrow">04 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>✍️ Дефис арқылы жазылатын сөздер</h1>
+
+  <p class="lead">
+    Дефис (-) — кей сөздердің
+    бөлшектерін немесе
+    сыңарларын байланыстырып
+    жазуға қолданылатын
+    орфографиялық таңба.
+  </p>
+
+  <div class="cards three">
+    <article class="card">
+      <h3>Қосарлама қос сөздер</h3>
+      <div class="example">ата-ана</div>
+      <div class="example">салт-дәстүр</div>
+      <div class="example">ел-жұрт</div>
+      <p>
+        Мағыналас, байланысты
+        немесе жалпылама
+        мағынадағы сыңарлар.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Қайталама қос сөздер</h3>
+      <div class="example">қайта-қайта</div>
+      <div class="example">бірте-бірте</div>
+      <div class="example">тау-тау</div>
+      <p>
+        Қайталау арқылы
+        жасалған тұлғалар.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Күшейткіш буын</h3>
+      <div class="example">қып-қызыл</div>
+      <div class="example">жап-жасыл</div>
+      <div class="example">әп-әдемі</div>
+      <p>
+        Сын есімнің
+        күшейтпелі түрін жасайды.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Цифрмен берілген рет</h3>
+      <div class="example">1-курс</div>
+      <div class="example">5-сынып</div>
+      <div class="example">2-бөлім</div>
+      <p>
+        Араб цифрымен
+        берілген реттік
+        мағыналы тіркестер.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Болжалдық сан есім</h3>
+      <div class="example">екі-үш</div>
+      <div class="example">отыз-қырық</div>
+      <div class="example">бес-алты</div>
+      <p>
+        Болжалды шаманы
+        білдіреді.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Жалқы есімдер</h3>
+      <div class="example">әл-Фараби</div>
+      <div class="example">Дон-Кихот</div>
+      <p>
+        Кейбір жалқы есімдер
+        орфографиялық нормаға
+        сай дефиспен жазылады.
+      </p>
+    </article>
+  </div>
+
+  <div class="callout">
+    <b>Ерекше ескерту:</b>
+    аппақ, көкпеңбек
+    сөздері дефиссіз
+    бірге жазылады.
+  </div>
+</section>
+
+<!-- 5. ДЕФИС ПЕН СЫЗЫҚША -->
+<section class="screen" id="page-5">
+  <div class="eyebrow">05 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>🔍 Дефис пен сызықшаның айырмашылығы</h1>
+
+  <div class="compare-grid">
+    <article class="compare-card">
+      <h3>Дефис (-)</h3>
+      <div class="big-symbol">-</div>
+      <p>
+        Сөздің немесе
+        сөз тұлғасының
+        жазылуына қатысады.
+      </p>
+      <div class="example">
+        салт-дәстүр
+      </div>
+      <div class="example">
+        қып-қызыл
+      </div>
+      <div class="example">
+        3-курс
+      </div>
+    </article>
+
+    <article class="compare-card">
+      <h3>Сызықша (—)</h3>
+      <div class="big-symbol">—</div>
+      <p>
+        Сөйлемде тыныс белгісі
+        ретінде қолданылады.
+      </p>
+      <div class="example">
+        Кино — өнер.
+      </div>
+      <div class="example">
+        Қазақ киносы — ұлттық мұра.
+      </div>
+    </article>
+  </div>
+
+  <h2>Кино туралы мәтіндегі емле</h2>
+
+  <div class="card">
+    <p class="quote">
+      Қазақ киносы — халқымыздың
+      мәдени мұрасы. Тарихи
+      фильмдерде халықтың
+      салт-дәстүрі, ел-жұртының
+      тұрмысы және арман-мақсаты
+      көркем түрде бейнеленеді.
+    </p>
+  </div>
+
+  <div class="callout">
+    <b>Тапсырма:</b>
+    Мәтіннен дефиспен
+    жазылған сөздерді
+    және сызықшаны тап.
+    Олардың қызметін түсіндір.
+  </div>
+</section>
+
+<!-- 6. ТАСЫМАЛ -->
+<section class="screen" id="page-6">
+  <div class="eyebrow">06 • ТҮСІНДІРУ • 4 МИНУТ</div>
+
+  <h1>📖 Сөздерді дұрыс тасымалдау</h1>
+
+  <p class="lead">
+    Тасымал — жазу жолына
+    сыймаған сөздің бір бөлігін
+    келесі жолға көшіру.
+    Сөз негізінен буын
+    жігіне сай тасымалданады.
+  </p>
+
+  <div class="cards">
+    <article class="card">
+      <h3>Дұрыс мысалдар</h3>
+      <div class="example">ки-но</div>
+      <div class="example">қа-зақ</div>
+      <div class="example">сах-на</div>
+      <div class="example">көр-кем</div>
+      <div class="example">тар-их</div>
+      <p>
+        Бұлардың буын шегінде
+        тасымал жасауға болады.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Тасымалдауға болмайды</h3>
+      <div class="example wrong">фильм</div>
+      <div class="example wrong">ел</div>
+      <div class="example wrong">БҰҰ</div>
+      <div class="example wrong">а-на</div>
+      <div class="example wrong">ө-нер</div>
+      <p>
+        Бір буынды сөздер,
+        қысқартылған сөздер
+        және жеке әріпті
+        қалдыратын тасымалдар
+        ережеге сай емес.
+      </p>
+    </article>
+  </div>
+
+  <div class="rules">
+    <h3>Тасымалдың негізгі қағидалары</h3>
+    <ol>
+      <li>Сөзді буын жігімен тасымалда.</li>
+      <li>Бір буынды сөзді бөлме.</li>
+      <li>Бір әріпті жол соңында қалдырма.</li>
+      <li>Бір әріпті келесі жолға көшірме.</li>
+      <li>БҰҰ сияқты қысқарған сөздерді бөлме.</li>
+      <li>А. Құнанбайұлы сияқты инициал мен текті ажыратпа.</li>
+      <li>25 см сияқты сан мен қысқарған өлшемді бөлме.</li>
+    </ol>
+  </div>
+
+  <div class="callout">
+    <b>Негізгі айырмашылық:</b>
+    «ата-ана» сөзіндегі дефис
+    сөздің тұрақты жазылу
+    белгісі. Ал «ки-но»
+    түріндегі дефис
+    тасымал орнын көрсету
+    үшін ғана қойылған.
+  </div>
+</section>
+
+<!-- 7. YOUTUBE -->
+<section class="screen" id="page-7">
+  <div class="eyebrow">07 • ВИДЕО • 6 МИНУТ</div>
+
+  <h1>▶️ Тақырыптық бейнесабақтар</h1>
+
+  <p class="lead">
+    Бірінші видео сабақтың
+    үш тақырыбын біріктіреді.
+    Екіншісі қазақ киносының
+    тарихына арналған.
+    Үшіншісі фильмнен қысқа үзінді.
+  </p>
+
+  <div class="toolbar">
+    <button class="btn primary" data-video="0">
+      ▶ Қазақ киносы және емле
+    </button>
+    <button class="btn secondary" data-video="1">
+      ▶ Қазақ киносының тарихы
+    </button>
+    <button class="btn secondary" data-video="2">
+      ▶ «Менің атым Қожа»
+    </button>
+    <button class="btn danger" id="stopVideo">
+      ⏹ Тоқтату
+    </button>
+  </div>
+
+  <div class="video-frame">
+    <iframe
+      id="videoPlayer"
+      src="about:blank"
+      title="Қазақ тілі бейнесабағы"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <p class="feedback" id="videoTitle">
+    Видео таңда.
+  </p>
+
+  <a id="videoExternal"
+     href="https://www.youtube.com/watch?v=VnMI6InOPAE"
+     target="_blank"
+     rel="noopener noreferrer">
+    Видео ашылмаса, YouTube-та ашу
+  </a>
+
+  <div class="card">
+    <h3>Видеодан кейін талқылау</h3>
+    <ol>
+      <li>Кино тарихты қандай жолмен танытады?</li>
+      <li>Қос сөздер неге дефиспен жазылады?</li>
+      <li>Дефис пен сызықшаны қалай ажыратамыз?</li>
+      <li>Қандай сөздер тасымалданбайды?</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 8. КОНСПЕКТ -->
+<section class="screen" id="page-8">
+  <div class="eyebrow">08 • КОНСПЕКТ • 13 МИНУТ</div>
+
+  <h1>📚 Дәптерге арналған толық конспект</h1>
+
+  <p class="lead">
+    Алғашқы 12 тармақ —
+    жазып алуға арналған
+    негізгі ақпарат.
+    Кейінгі бөлімдер —
+    қосымша теория мен
+    күрделі тапсырмаларға дайындық.
+  </p>
+
+  <div class="notes" id="notesContent">
+    <h2>
+      Қазақ киносы — қазақ тарихы.
+      Дефис. Тасымал
+    </h2>
+
+    <h3>1. Кино өнері</h3>
+    <p>
+      Кино — көркем бейне, дыбыс,
+      актерлік ойын және режиссерлік
+      шешім арқылы оқиғаларды
+      жеткізетін өнер түрі.
+      Ол қоғамның мәдениеті
+      мен тарихи санасына әсер етеді.
+    </p>
+
+    <h3>2. Қазақ киносының маңызы</h3>
+    <p>
+      Қазақ киносы ұлттық
+      мәдениетімізді, тарихымызды,
+      тілімізді, салт-дәстүрімізді
+      және адамдардың өмірін
+      көрсететін маңызды өнер.
+      Кино ұрпақтар арасындағы
+      рухани байланысты нығайтады.
+    </p>
+
+    <h3>3. Қазақ киносының басталуы</h3>
+    <p>
+      Қазақстандағы алғашқы
+      кинохроника тәжірибелері
+      ХХ ғасырдың жиырмасыншы
+      жылдары қалыптасты.
+      1934 жылы Алматы
+      кинохроника студиясы құрылды.
+    </p>
+
+    <h3>4. «Амангелді» фильмі</h3>
+    <p>
+      1938 жылы «Амангелді»
+      көркем фильмі жарық көрді.
+      Ол ұлттық көркем кино
+      тарихында ерекше орын алады.
+      Фильмде Амангелді
+      Имановтың күрес жолы
+      көркем түрде баяндалады.
+    </p>
+
+    <h3>5. Көрнекті кинематографистер</h3>
+    <p>
+      Шәкен Айманов,
+      Абдолла Қарсақбаев,
+      Сұлтан Қожықов
+      сынды өнер қайраткерлері
+      қазақ киносының дамуына
+      маңызды үлес қосты.
+    </p>
+
+    <h3>6. Қазақ киносының белгілі туындылары</h3>
+    <p>
+      «Қыз Жібек»,
+      «Менің атым Қожа»,
+      «Тақиялы періште»,
+      «Амангелді» сияқты
+      фильмдер ұлттық киноның
+      маңызды туындыларына жатады.
+    </p>
+
+    <h3>7. Тарихи кино</h3>
+    <p>
+      Тарихи кино өткен
+      дәуірдегі оқиғалар,
+      тұлғалар және
+      әлеуметтік жағдайлар
+      туралы түсінік береді.
+      Дегенмен көркем фильмді
+      тарихи құжатпен
+      толық теңестіруге болмайды.
+    </p>
+
+    <h3>8. Дефис дегеніміз не?</h3>
+    <p>
+      Дефис — сөздердің
+      немесе сөз бөлшектерінің
+      арасына қойылатын
+      орфографиялық таңба.
+      Ол кей қос сөздердің,
+      күшейткіш буындардың
+      және басқа тұлғалардың
+      дұрыс жазылуын көрсетеді.
+    </p>
+
+    <h3>9. Қос сөздер</h3>
+    <p>
+      Қосарлама қос сөздер:
+      ата-ана, салт-дәстүр,
+      ел-жұрт, үлкен-кіші.
+      Қайталама қос сөздер:
+      қайта-қайта, тау-тау,
+      бірте-бірте.
+      Бұлар дефис арқылы жазылады.
+    </p>
+
+    <h3>10. Күшейткіш буын мен реттік сан</h3>
+    <p>
+      Күшейткіш буын арқылы
+      жасалған сөздер:
+      қып-қызыл, жап-жасыл,
+      әп-әдемі.
+      Араб цифрымен жазылған
+      реттік мәнді тұлғалар:
+      1-курс, 5-сынып, 2-бөлім.
+    </p>
+
+    <h3>11. Тасымал</h3>
+    <p>
+      Тасымал — жазу жолына
+      сыймаған сөздің бір
+      бөлігін келесі жолға
+      көшіру. Сөздер
+      негізінен буын жігімен
+      тасымалданады:
+      ки-но, қа-зақ,
+      сах-на, көр-кем.
+    </p>
+
+    <h3>12. Тасымалданбайтын жағдайлар</h3>
+    <p>
+      Бір буынды сөздер
+      тасымалданбайды.
+      Бір әріпті жол соңында
+      немесе келесі жолда
+      жеке қалдыруға болмайды.
+      Бас әріптен қысқарған
+      сөздер бөлінбейді.
+      Қысқартылған кісі есімі
+      тегінен ажыратылмайды.
+    </p>
+
+    <hr>
+
+    <h2>Қосымша теория</h2>
+
+    <h3>13. Дефис пен сызықша</h3>
+    <p>
+      Дефис — орфографиялық,
+      ал сызықша — пунктуациялық
+      таңба. Мысалы:
+      салт-дәстүр сөзінде
+      дефис қойылған.
+      «Кино — өнер»
+      сөйлемінде сызықша бар.
+    </p>
+
+    <h3>14. Дефиспен жазылатын қос сөздер</h3>
+    <p>
+      Сыңарлары өзара
+      мағыналас, қарама-қарсы
+      немесе жалпылама
+      мағыналы қос сөздер
+      дефис арқылы жазылады.
+      Мысалы: үлкен-кіші,
+      алыс-жақын, ел-жұрт.
+    </p>
+
+    <h3>15. Болжалдық сан есім</h3>
+    <p>
+      Екі сан есім
+      қосарланып болжал
+      білдірсе, дефис
+      арқылы жазылады:
+      екі-үш, бес-алты,
+      отыз-қырық.
+    </p>
+
+    <h3>16. Ерекше жазылатын сөздер</h3>
+    <p>
+      Аппақ және көкпеңбек
+      сөздері дефиссіз
+      бірге жазылады.
+      Рим цифрынан кейін
+      дефис қойылмайды:
+      ХХІ ғасыр, ІІ курс.
+    </p>
+
+    <h3>17. Жалқы есімдердің жазылуы</h3>
+    <p>
+      Кісі есімдері,
+      жер-су атаулары
+      бас әріппен жазылады.
+      Фильм атаулары
+      тырнақшаға алынады:
+      «Амангелді»,
+      «Қыз Жібек».
+    </p>
+
+    <h3>18. Тасымал жасауға болмайтын сөздер</h3>
+    <p>
+      Бір буынды фильм,
+      ел, ұлт сөздерін
+      тасымалдауға болмайды.
+      БҰҰ сияқты қысқарған
+      сөздер де бөлінбейді.
+      Бір әріпті бөлек
+      қалдыратын а-на,
+      ө-нер тасымалдары қате.
+    </p>
+
+    <h3>19. Мәтінмен жұмыс</h3>
+    <p>
+      Қазақ киносы туралы
+      мәтін оқығанда
+      негізгі ойды,
+      тарихи деректерді,
+      автордың көзқарасын
+      және қорытындыны
+      ажырату қажет.
+      Мәтіндегі сөздердің
+      дұрыс жазылуына
+      назар аудару керек.
+    </p>
+
+    <h3>20. Қорытынды</h3>
+    <p>
+      Қазақ киносы —
+      ұлттық тарихымыз
+      бен мәдениетімізді
+      танытатын өнер.
+      Дефис арқылы
+      жазылатын сөздерді
+      және тасымал ережелерін
+      білу сауатты
+      жазуға көмектеседі.
+    </p>
+  </div>
+
+  <div class="toolbar">
+    <button class="btn primary" id="copyNotes">
+      📋 Конспектіні көшіру
+    </button>
+    <button class="btn secondary"
+            onclick="window.print()">
+      🖨 Басып шығару
+    </button>
+  </div>
+</section>
+
+<!-- 9. ОҚУШЫЛАР -->
+<section class="screen" id="page-9">
+  <div class="eyebrow">
+    09 • ТАПСЫРМАЛАРҒА ДАЙЫНДЫҚ • 3 МИНУТ
+  </div>
+
+  <h1>👥 Қатысушыларды белгілеу</h1>
+
+  <p class="lead">
+    24 оқушының есімі дайын.
+    Қатыспайтындарды алып таста.
+    Қалған оқушылар ауызша
+    сұрақтарға және тестке
+    рандом таңдалады.
+  </p>
+
+  <div class="summary-grid">
+    <div>
+      <span>Қатысады</span>
+      <strong id="presentCount">24</strong>
+    </div>
+    <div>
+      <span>Қатыспайды</span>
+      <strong id="absentCount">0</strong>
+    </div>
+    <div>
+      <span>Команда</span>
+      <strong id="teamCount">3</strong>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <button class="btn secondary" id="allPresent">
+      ✅ Барлығын қайтару
+    </button>
+  </div>
+
+  <h2>Қатысатын оқушылар</h2>
+  <div class="student-grid" id="presentList"></div>
+
+  <div class="card">
+    <h3>❌ Қатыспайтындар</h3>
+    <div id="absentList"></div>
+  </div>
+
+  <p class="feedback" id="attendanceFeedback"></p>
+
+  <h2>Командалар</h2>
+  <div class="team-grid" id="teamRoster"></div>
+</section>
+
+<!-- 10. АУЫЗША СҰРАҚ -->
+<section class="screen" id="page-10">
+  <div class="eyebrow">
+    10 • КЕЗДЕЙСОҚ АУЫЗША СҰРАҚ • 12 МИНУТ
+  </div>
+
+  <h1>🎤 Random Student</h1>
+
+  <p class="lead">
+    Сайт қатысып отырған
+    оқушыны және оған арналған
+    сұрақты кездейсоқ таңдайды.
+    Бағаланған оқушы
+    қайта таңдалмайды.
+  </p>
+
+  <div class="question-card">
+    <div class="question-top">
+      <span id="oralProgressText">0 / 24</span>
+      <span class="points">Максимум 3 ұпай</span>
+    </div>
+
+    <div class="chosen-student" id="oralStudent">
+      🎲 Кездейсоқ таңдау
+    </div>
+
+    <h2 id="oralQuestion">
+      Рандом батырмасын бас.
+    </h2>
+
+    <div class="answer-panel"
+         id="oralAnswer"
+         hidden></div>
+
+    <div class="toolbar">
+      <button class="btn primary" id="oralPick">
+        🎲 Рандом таңдау
+      </button>
+      <button class="btn secondary" id="oralReveal">
+        👁 Жауапты көрсету
+      </button>
+    </div>
+
+    <div class="toolbar">
+      <button class="btn success oral-grade"
+              data-points="3">✅ 3 ұпай</button>
+      <button class="btn secondary oral-grade"
+              data-points="2">🟡 2 ұпай</button>
+      <button class="btn secondary oral-grade"
+              data-points="1">🟠 1 ұпай</button>
+      <button class="btn danger oral-grade"
+              data-points="0">❌ 0 ұпай</button>
+    </div>
+
+    <p class="feedback" id="oralFeedback"></p>
+  </div>
+
+  <h2>Ауызша сұрақ нәтижелері</h2>
+  <div class="progress-grid" id="oralResults"></div>
+</section>
+
+<!-- 11. ЖЕКЕ ТЕСТ -->
+<section class="screen" id="page-11">
+  <div class="eyebrow">
+    11 • КЕЗДЕЙСОҚ ЖЕКЕ ТЕСТ • 8 МИНУТ
+  </div>
+
+  <h1>🧠 Орфографиялық тест</h1>
+
+  <p class="lead">
+    Оқушы да, сұрақ та
+    кездейсоқ таңдалады.
+    Әр дұрыс жауапқа
+    2 ұпай беріледі.
+  </p>
+
+  <div class="question-card">
+    <div class="question-top">
+      <span id="quizProgressText">0 / 24</span>
+      <span class="points">Дұрыс жауап +2</span>
+    </div>
+
+    <div class="chosen-student" id="quizStudent">
+      🎲 Оқушыны таңда
+    </div>
+
+    <h2 id="quizQuestion">
+      Рандом батырмасын бас.
+    </h2>
+
+    <div class="choices" id="quizOptions"></div>
+
+    <div class="toolbar">
+      <button class="btn primary" id="quizPick">
+        🎲 Рандом таңдау
+      </button>
+      <button class="btn success" id="quizCheck">
+        ✅ Тексеру
+      </button>
+    </div>
+
+    <p class="feedback" id="quizFeedback"></p>
+  </div>
+
+  <h2>Жеке тест нәтижелері</h2>
+  <div class="progress-grid" id="quizResults"></div>
+</section>
+
+<!-- 12. 1-ОЙЫН -->
+<section class="screen" id="page-12">
+  <div class="eyebrow">12 • 1-ОЙЫН • 4 МИНУТ</div>
+
+  <h1>🎬 CINEMA BATTLE</h1>
+
+  <p class="lead">
+    Үш командаға тарихи
+    және тілдік жағдаяттар
+    беріледі. Дұрыс жауап
+    +3 ұпай.
+  </p>
+
+  <div class="team-grid" id="game1Scores"></div>
+
+  <div class="question-card">
+    <div class="question-top">
+      <span id="battleNumber">1 / 9</span>
+      <span class="points" id="battleTeam"></span>
+    </div>
+
+    <div class="progress-track">
+      <div id="battleBar"></div>
+    </div>
+
+    <h2 id="battleQuestion"></h2>
+    <div class="choices" id="battleOptions"></div>
+
+    <div class="toolbar">
+      <button class="btn success" id="battleCheck">
+        ✅ Тексеру
+      </button>
+      <button class="btn primary" id="battleNext">
+        Келесі жағдаят →
+      </button>
+    </div>
+
+    <p class="feedback" id="battleFeedback"></p>
+  </div>
+</section>
+
+<!-- 13. 2-ОЙЫН -->
+<section class="screen" id="page-13">
+  <div class="eyebrow">13 • 2-ОЙЫН • 3 МИНУТ</div>
+
+  <h1>🕵️ Емле детективі</h1>
+
+  <p class="lead">
+    Әр команда төрт тұжырымды
+    талдайды. Әр дұрыс
+    шешім — 1 ұпай.
+  </p>
+
+  <div class="team-grid" id="game2Scores"></div>
+  <div id="logicArea"></div>
+</section>
+
+<!-- 14. 3-ОЙЫН -->
+<section class="screen" id="page-14">
+  <div class="eyebrow">14 • 3-ОЙЫН • 2 МИНУТ</div>
+
+  <h1>🎨 Кино сценарийі және сауатты жазу</h1>
+
+  <p class="lead">
+    Командаларға үш түрлі
+    шығармашылық тапсырма:
+    қысқа мәтін, орфографиялық
+    редакция және тасымал.
+  </p>
+
+  <div class="team-grid" id="game3Scores"></div>
+  <div id="creativeArea"></div>
+</section>
+
+<!-- 15. ҚОРЫТЫНДЫ -->
+<section class="screen" id="page-15">
+  <div class="eyebrow">15 • ҚОРЫТЫНДЫ • 2 МИНУТ</div>
+
+  <h1>🏆 Сабақтың қорытындысы</h1>
+
+  <div class="winner" id="winner"></div>
+
+  <h2>Командалардың ұпайлары</h2>
+  <div class="team-grid" id="finalScores"></div>
+
+  <h2>Жеке нәтижелер</h2>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Оқушы</th>
+          <th>Команда</th>
+          <th>Ауызша</th>
+          <th>Тест</th>
+          <th>Барлығы</th>
+        </tr>
+      </thead>
+      <tbody id="studentResults"></tbody>
+    </table>
+  </div>
+
+  <div class="callout">
+    <b>Қорытынды:</b>
+    Қазақ киносы ұлттық
+    тарих пен мәдениетті
+    көркем түрде танытады.
+    Дефис арқылы жазылатын
+    сөздер мен тасымал
+    ережелерін меңгеру
+    сауатты жазуға көмектеседі.
+  </div>
+
+  <div class="toolbar">
+    <button class="btn secondary"
+            onclick="window.print()">
+      🖨 Нәтижені басып шығару
+    </button>
+    <button class="btn danger" id="resetLesson">
+      🔄 Жаңа сабақ
+    </button>
+  </div>
+
+  <footer>MADE BY DARKHAN • QAZAQ TILI</footer>
+</section>
+
+<div class="bottom-nav">
+  <button class="btn secondary" id="previousPage">
+    ← Артқа
+  </button>
+
+  <span id="pageIndicator">1 / 16</span>
+
+  <button class="btn primary" id="nextPage">
+    Келесі →
+  </button>
+</div>
+
+</main>
+
+<!-- ОҢ ЖАҚ МӘЗІР -->
+<aside class="sidebar">
+  <div class="sidebar-logo">🎬 QAZAQ TILI</div>
+
+  <nav id="sidebarNav">
+    <button class="nav-btn active" data-page="0">🏠 Басты бет</button>
+    <button class="nav-btn" data-page="1">🎥 Қазақ киносы</button>
+    <button class="nav-btn" data-page="2">📽️ Кино тарихы</button>
+    <button class="nav-btn" data-page="3">🏛️ Тарихи фильмдер</button>
+    <button class="nav-btn" data-page="4">✍️ Дефис</button>
+    <button class="nav-btn" data-page="5">🔍 Дефис пен сызықша</button>
+    <button class="nav-btn" data-page="6">📖 Тасымал</button>
+    <button class="nav-btn" data-page="7">▶️ YouTube</button>
+    <button class="nav-btn" data-page="8">📚 Конспект</button>
+    <button class="nav-btn" data-page="9">👥 Қатысушылар</button>
+    <button class="nav-btn" data-page="10">🎤 Ауызша</button>
+    <button class="nav-btn" data-page="11">🧠 Жеке тест</button>
+    <button class="nav-btn" data-page="12">🎬 1-ойын</button>
+    <button class="nav-btn" data-page="13">🕵️ 2-ойын</button>
+    <button class="nav-btn" data-page="14">🎨 3-ойын</button>
+    <button class="nav-btn" data-page="15">🏆 Қорытынды</button>
+  </nav>
+
+  <div class="sidebar-bottom">
+    <div id="sidebarScores"></div>
+    <strong>BY DARKHAN</strong>
+  </div>
+</aside>
+
+</body>
+</html>
